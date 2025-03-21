@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vicente Fernández - Inicio</title>
+  <style>
+    /* Estilos generales */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #54070799, #e46565, #3939e8);
+      color: #333;
+      text-align: center;  
+    }
+
+    /* Contenedor principal */
+    .container {
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    /* Menú de navegación horizontal */
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    nav button {
+      background-color: transparent;
+      color: white;
+      border: none;
+      padding: 20px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    nav button:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      transform: scale(1.1);
+    }
+
+    /* Encabezado principal */
+    header {
+      background-color: rgba(178, 34, 34, 0.8);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* Secciones */
+    section {
+      display: none;
+      margin: 30px 0;
+      font-size: 18px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    #inicio {
+      display: block;
+    }
+
+    /* Imagen principal */
+    .main-image {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      margin-top: 20px;
+      transition: transform 0.3s;
+    }
+
+    .main-image:hover {
+      transform: scale(1.05);
+    }
+
+    img:hover {
+      transform: scale(1.1);
+      transition: transform 0.3s;
+    }
+  </style>
+</head>
+<body>
+  <center><div class="container">
+    <!-- Menú Horizontal -->
+    <nav>
+      <button onclick="mostrarSeccion('inicio')">Inicio</button>
+      <button onclick="mostrarSeccion('biografia')">Biografía</button>
+      <button onclick="mostrarSeccion('playlist')">Playlist</button>
+      <button onclick="mostrarSeccion('premios')">Premios</button>
+      <button onclick="mostrarSeccion('albumes')">Álbumes</button>
+      <button onclick="mostrarSeccion('colaboraciones')">Colaboraciones</button>
+      <button onclick="mostrarSeccion('video')">Video</button>
+    </nav>
+ 
+    <section id="inicio">
+      <header>
+        <h1>Vicente Fernández</h1>
+      </header>
+      <img src="img/vicente.jpeg" width="250" height="auto" class="main-image" />
+      <p>Bienvenido al sitio web dedicado a Vicente Fernández, una leyenda de la música ranchera.</p>
+    </section>
+  </center>
+
+    <section id="biografia">
+      <h2>Biografía</h2>
+      <p> <p>Vicente Fernández Gómez, nacido el 17 de febrero de 1940 en Huentitán El Alto, Jalisco, México, fue uno de los cantantes más icónicos de la música ranchera. Conocido como "El Rey de la Música Ranchera", su carrera abarcó más de cinco décadas.</p>
+      <p>Desde joven, Vicente mostró pasión por la música, participando en concursos de canto y actuaciones locales. Su éxito comenzó a consolidarse en la década de 1970, ganándose el cariño del público con su inigualable voz y estilo auténtico.</p>
+      <p>A lo largo de su trayectoria, grabó más de 100 álbumes y protagonizó múltiples películas del cine mexicano. Su legado vive a través de sus canciones, las cuales siguen resonando en el corazón de millones de fanáticos.</p>
+      <p>Vicente Fernández falleció el 12 de diciembre de 2021, dejando un vacío irremplazable en la música mexicana.</p>
+      <p>A partir de 1965 y a través de la emisora de radio XEX-AM pudo llegar a audiencias más grandes y alcanzar fama local.</p>
+      <p>Se presentó en el teatro Blanquita de México y en el verano de 1966 firmó un contrato con CBS México (hoy Sony Music), donde grabó sus primeros éxitos: Perdóname, Cantina del barrio y «Tu camino y el mío». Le siguieron una serie de álbumes con ventas importantes, que incluyó Palabra de rey, Vicente Fernández y Ni en defensa propia. También comenzó a trabajar en Televisa, donde conoció a Raúl Velasco. Interpretó en vivo temas como Tu camino y el mío y Volver, volver. Este último tema lo catapultó a la fama a nivel internacional, una de las canciones rancheras más conocidas fuera de México y fue grabada por cantantes como Raphael, Nana Mouskouri y Concha Buika.</p>
+</p>
+
+<img src="img/vicente.jpg" width="250" height="auto" class="main-image" />
+    </section>
+
+    <section id="playlist">
+        <marquee><h2>Playlist</h2></marquee>
+        <ul>
+          <strong><li>un millon de primaveras</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6j5LtifAnuTjTYvml61yFZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <strong><li>El Rey</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/32r25QdtfHgAxjohp2EoPH?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <strong><li>Por Tu Maldito Amor</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4pFrn7MBtpwXlsyO5CbCj2?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <strong><li>Mujeres Divinas</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3KapNGuqWYFl9gBfJz9tOT?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <strong><li>Estos Celos</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6u6kH7V7Tx5xDJtF82vVw0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <strong><li>Hermoso cariño</li></strong>
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6UN6W5tj0qrMYV8N9MQMJC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </ul>
+      </section>
+
+      <section id="premios">
+        <h2>premios mas importantes de Vicente Fernández  </h2>
+        <p>Vicente Fernández recibió numerosos premios a lo largo de su carrera, destacándose por su impacto en la música ranchera y la cultura mexicana. A continuación, algunos de los premios más importantes:</p>
+  
+        <h3>Premio Grammy</h3>
+        <p>Ganador de varios premios Grammy y Grammy Latinos por Mejor Álbum de Música Ranchera/Mariachi.</p>
+        <img src="img/grammy.jpeg" alt="Premio Grammy" class="award-image">
+  
+        <h3>Premio Lo Nuestro</h3>
+        <p>Galardonado con premios Lo Nuestro por su destacada contribución a la música latina, ademas de como homenaje a su fallecimiento reciente.</p>
+        <img src="img/lo nuestro.jpg" width="150" height="auto">
+  
+        <h3>Estrella en el Paseo de la Fama de Hollywood</h3>
+        <p>En 1998, Vicente Fernández recibió una estrella en el Paseo de la Fama de Hollywood en reconocimiento a su carrera musical.</p>
+        <img src="img/holliwod.jpg" width="150" height="auto">
+      </section>
+
+    <section id="albumes">
+      <h2>Álbumes mas exitosos de Vicente Fernández </h2>
+      <ul>
+        <strong><li>"Para siempre" (2007)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3o98FgxhuEuR7PrLRIA203?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"La Historia de un Ídolo" (2001)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7HgnENwYD1XHwIMdZLIkhU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Mi amigo el Tordillo" (1993)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1SkIUJypyRV6ThRYuwAxES?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Qué raro tiene" (1992)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5N1xXRWtsVFU5exJhdYZdd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Hoy Platiqué con mi Gallo" (1986)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6PP466aN2SdljvXrO5GXvk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Vicente Fernández y Sus Corridos Consentidos" (1976)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7JRZqO7zZrTJiL0yeeQfYn?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Un Azteca en el Azteca" (2016)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4geCevoFyJ8TvKJdNfSIRb?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"El Ídolo de México" (1972)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/33BGnmrvBXEZpkb8NgN1ru?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Necesito de Ti" (2009)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6gx1xkOAauMJMmWhxJVTsR?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <strong><li>"Mano a Mano: Tangos a la Manera de Vicente Fernández" (2014)</li></strong>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6sh6Vqdbu9mHsnWvsqyikC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </ul>
+    </section>
+
+    <section id="colaboraciones">
+      <h2>Colaboraciones</h2>
+      <strong><p>vicente fernandez aparecio en multiples peliculas como por ejemplo "la ley del monte (1976)"</p></strong>
+      <img src="img/uno.jpg" width="200" height="auto">
+      <strong><p>"el hijo del pueblo(1976)"</p></strong>
+      <img src="img/dos.jpg" width="200" height="auto">
+      <strong><p>"mi querido viejo(1991)"</p></strong>
+      <img src="img/tres.jpg" width="200" height="auto">
+      <strong><p>vicente fernandez colaboro con Ana gabriela en la cancion "con un mismo corazon"</p></strong>
+      <img src="img/cuatro.jpg" width="200" height="auto">
+    </section>
+
+    <section id="video">
+      <h2>Video</h2>
+      <p>Edit de don vicente fernandez </p>
+      <video src="vidio/4.mp4" width="200" height="auto" controls></video>
+    </section>
+  </div>
+
+  <script>
+    function mostrarSeccion(id) {
+      const secciones = document.querySelectorAll('section');
+      secciones.forEach(seccion => {
+        seccion.style.display = 'none';
+      });
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</body>
+</html>  
